@@ -142,16 +142,20 @@
 }
 
 .tempHigh {
+  display: inline-block;
   font-weight: 500;
   font-size: 18px;
+  width: 52px;
   line-height: 50px;  
   text-align: center;
   color: #332821;
 }
 
 .tempLow {
+  display: inline-block;
   font-weight: 500;
   font-size: 18px;
+  width: 52px;
   line-height: 50px;  
   text-align: center;
   color: rgba(51, 40, 33, 0.5);
