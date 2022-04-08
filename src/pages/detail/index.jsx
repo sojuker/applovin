@@ -42,7 +42,7 @@ function Detail() {
       <div className={styles.hours}>
         {featureWeather.hours.slice(0, 12).map((hour) => {
           return (
-            <div className={styles.hourCard}>
+            <div className={styles.hourCard} key={hour.time}>
               <div className={styles.tempHour}>
                 {hour.tem}<span className={styles.tempUnitHour}>℃</span>
               </div>
@@ -56,7 +56,7 @@ function Detail() {
           const weatherImgSrc = getWeatherImg(month.day.phrase_img, false);
 
           return (
-            <div className={styles.dayRow}>
+            <div className={styles.dayRow} key={month.date}>
               <div className={styles.week}>{month.dateOfWeek}</div>
               <img className={styles.weatherImgOfDay} alt={month.day.phrase_img} src={weatherImgSrc}></img>
               <div className={styles.tempOfDay}>
