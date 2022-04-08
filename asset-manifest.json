@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/applovin/static/css/main.d975480d.css",
+    "main.js": "/applovin/static/js/main.3311b2a5.js",
+    "static/media/Day-Sun.png": "/applovin/static/media/Day-Sun.745f9c0d7603d02d7d72.png",
+    "static/media/logo.png": "/applovin/static/media/logo.34861ffa09e763f5d407.png",
+    "index.html": "/applovin/index.html",
+    "main.d975480d.css.map": "/applovin/static/css/main.d975480d.css.map",
+    "main.3311b2a5.js.map": "/applovin/static/js/main.3311b2a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d975480d.css",
+    "static/js/main.3311b2a5.js"
+  ]
+}
