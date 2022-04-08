@@ -84,11 +84,15 @@
 
 .hours {
   display: flex;
-  padding: 0 20px;
+  flex-wrap: wrap;
+  margin: 0 20px;
   justify-content: space-between;
+  overflow: hidden;
+  height: 109px;
 }
 
 .hourCard {
+  flex: 0 0 auto;
   width: 90px;
   height: 109px;
   background: #FFFFFF;

@@ -40,7 +40,7 @@ function Detail() {
         </div>
       </div>
       <div className={styles.hours}>
-        {featureWeather.hours.slice(0, 3).map((hour) => {
+        {featureWeather.hours.slice(0, 12).map((hour) => {
           return (
             <div className={styles.hourCard}>
               <div className={styles.tempHour}>
