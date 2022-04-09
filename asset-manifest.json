@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/applovin/static/css/main.966c3d39.css",
-    "main.js": "/applovin/static/js/main.a12c2ef9.js",
+    "main.css": "/applovin/static/css/main.485afe5d.css",
+    "main.js": "/applovin/static/js/main.c06a86e9.js",
     "static/media/Day-Snow.png": "/applovin/static/media/Day-Snow.13e9976b56c33de07087.png",
     "static/media/Day-Wind.png": "/applovin/static/media/Day-Wind.467f6c300adbdbef952f.png",
     "static/media/Day-Storm.png": "/applovin/static/media/Day-Storm.d143281493b8e37ea4d9.png",
@@ -17,11 +17,11 @@
     "static/media/Night-Moon.png": "/applovin/static/media/Night-Moon.fe3cc221c6af20f38c32.png",
     "service-worker.js": "/applovin/service-worker.js",
     "index.html": "/applovin/index.html",
-    "main.966c3d39.css.map": "/applovin/static/css/main.966c3d39.css.map",
-    "main.a12c2ef9.js.map": "/applovin/static/js/main.a12c2ef9.js.map"
+    "main.485afe5d.css.map": "/applovin/static/css/main.485afe5d.css.map",
+    "main.c06a86e9.js.map": "/applovin/static/js/main.c06a86e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.966c3d39.css",
-    "static/js/main.a12c2ef9.js"
+    "static/css/main.485afe5d.css",
+    "static/js/main.c06a86e9.js"
   ]
 }
