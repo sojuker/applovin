@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "./index.module.css";
 import { getFutureWeather } from "../../api/index";
-import { getWeatherImg } from "../../lib/util";
+import { getWeatherImg, getCurrentHourFromHHMM } from "../../lib/util";
 
 function Detail() {
   const [featureWeather, setFeatureWeather] = useState(null);
@@ -44,7 +44,7 @@ function Detail() {
               <div className={styles.tempHour}>
                 {hour.tem}<span className={styles.tempUnitHour}>℃</span>
               </div>
-              <div className={styles.timeHour}>{hour.time}</div>
+              <div className={styles.timeHour}>{getCurrentHourFromHHMM(hour.time)}</div>
             </div>
           )
         })}

@@ -22,6 +22,15 @@ export const getCurrentHour = () => {
   }
 }
 
+export const getCurrentHourFromHHMM = (str) => {
+  const hour = Number(str.split(":")[0]);
+  if (hour > 12) {
+    return `${hour - 12} pm`;
+  } else {
+    return `${hour} am`
+  }
+}
+
 const isDayOrNight = () => {
   const date =  new Date();
   const hour = date.getHours();
