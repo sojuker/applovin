@@ -25,7 +25,7 @@ function Home() {
       <div className={styles.logo}></div>
       <div className={styles.card}>
         <img className={styles.weatherImg} alt={currentWeather.wea} src={weatherImgSrc}></img>
-        <div className={styles.city}>{currentWeather.city}</div>
+        <div className={styles.city}>{currentWeather.city}，{currentWeather.country}</div>
         <div className={styles.main}>
           <div>
             <div>

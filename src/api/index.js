@@ -9,7 +9,7 @@ const instance = axios.create({
 // https://v0.yiketianqi.com/api/worldchina?appid=42744922&appsecret=Wry4mYlN
 
 export const getCurrentWeather = () => {
-  return instance.get('api?version=v6&appid=42744922&appsecret=Wry4mYlN');
+  return instance.get('https://www.tianqiapi.com/api?version=v6&appid=42744922&appsecret=Wry4mYlN');
 }
 
 export const getFutureWeather = () => {
