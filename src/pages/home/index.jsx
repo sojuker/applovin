@@ -11,7 +11,7 @@ function Home() {
   useEffect(() => {
     getCurrentWeather().then((res) => {
       setCurrentWeather(res.data);
-    })
+    });
   }, []);
 
   if (currentWeather === null) {

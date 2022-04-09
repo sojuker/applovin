@@ -2,9 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "./index.module.css";
 import { getFutureWeather } from "../../api/index";
-import { getCurrentHour, getWeatherImg } from "../../lib/util";
-
-import imgDaySun from "../../assets/Day-Sun.png";
+import { getWeatherImg } from "../../lib/util";
 
 function Detail() {
   const [featureWeather, setFeatureWeather] = useState(null);
@@ -12,20 +10,20 @@ function Detail() {
   useEffect(() => {
     getFutureWeather().then((res) => {
       setFeatureWeather(res.data);
-    })
+    });
   }, []);
 
   if (featureWeather === null) {
     return null;
   }
 
-  const weatherImgSrc = getWeatherImg(featureWeather.day.phrase_img)
+  const weatherImgSrc = getWeatherImg(featureWeather.day.phrase_img);
 
   return (
     <div className={styles.root}>
       <div className={styles.nav}>
         <Link to="/" className={styles.toHome}></Link>
-        <img className={styles.weatherImg} src={weatherImgSrc}></img>
+        <img className={styles.weatherImg} alt={featureWeather.day.phrase_img} src={weatherImgSrc}></img>
       </div>
 
 

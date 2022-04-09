@@ -15,8 +15,8 @@ export const getCurrentHour = () => {
   const date =  new Date();
   const hour = date.getHours();
 
-  if (hour >= 12) {
-    return `${hour} pm`;
+  if (hour > 12) {
+    return `${hour - 12} pm`;
   } else {
     return `${hour} am`
   }
