@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/applovin/static/css/main.daa5e998.css",
-    "main.js": "/applovin/static/js/main.f2b690cd.js",
-    "static/media/Day-Snow.png": "/applovin/static/media/Day-Snow.13e9976b56c33de07087.png",
-    "static/media/Day-Wind.png": "/applovin/static/media/Day-Wind.467f6c300adbdbef952f.png",
-    "static/media/Day-Storm.png": "/applovin/static/media/Day-Storm.d143281493b8e37ea4d9.png",
-    "static/media/Day-Rain.png": "/applovin/static/media/Day-Rain.6bd638b233b97b8b97fe.png",
-    "static/media/Day-Clouds.png": "/applovin/static/media/Day-Clouds.8127b160f1b3157fd7fc.png",
-    "static/media/Day-Sun.png": "/applovin/static/media/Day-Sun.745f9c0d7603d02d7d72.png",
-    "static/media/Night-Snow.png": "/applovin/static/media/Night-Snow.360d7a67ac509a2e6983.png",
-    "static/media/Night-Storm.png": "/applovin/static/media/Night-Storm.1e860cc853b7d84d1c08.png",
-    "static/media/Night-Wind.png": "/applovin/static/media/Night-Wind.2135c621395d3b85dfe9.png",
-    "static/media/logo.png": "/applovin/static/media/logo.34861ffa09e763f5d407.png",
-    "static/media/Night-Rain.png": "/applovin/static/media/Night-Rain.fc8f86257ac6b739bfde.png",
-    "static/media/Night-Clouds.png": "/applovin/static/media/Night-Clouds.53fbc7da671ad7e323ac.png",
-    "static/media/Night-Moon.png": "/applovin/static/media/Night-Moon.fe3cc221c6af20f38c32.png",
+    "main.css": "/applovin/static/css/main.2ca74574.css",
+    "main.js": "/applovin/static/js/main.69e0015e.js",
     "service-worker.js": "/applovin/service-worker.js",
+    "static/media/Day-Snow.png": "/applovin/static/media/Day-Snow.c2ad509b0591abd95faf.png",
+    "static/media/Day-Wind.png": "/applovin/static/media/Day-Wind.85756c243bfaf4ec579c.png",
+    "static/media/Day-Storm.png": "/applovin/static/media/Day-Storm.26caec51bbbe0f6b74ae.png",
+    "static/media/Day-Clouds.png": "/applovin/static/media/Day-Clouds.5ca8a0b5964a40619a74.png",
+    "static/media/Night-Snow.png": "/applovin/static/media/Night-Snow.b271b8ba84a586df36ce.png",
+    "static/media/Day-Rain.png": "/applovin/static/media/Day-Rain.ceab5a70e27061ed3816.png",
+    "static/media/Day-Sun.png": "/applovin/static/media/Day-Sun.4340f6b8ca747aa2bb96.png",
+    "static/media/Night-Storm.png": "/applovin/static/media/Night-Storm.2d9cb01911e9add6dac7.png",
+    "static/media/Night-Wind.png": "/applovin/static/media/Night-Wind.698d05ac751236a8a81f.png",
+    "static/media/Night-Clouds.png": "/applovin/static/media/Night-Clouds.32804ce7714d1734611d.png",
+    "static/media/Night-Rain.png": "/applovin/static/media/Night-Rain.19c81164f5f64d637567.png",
+    "static/media/Night-Moon.png": "/applovin/static/media/Night-Moon.a268aebb563ea4671be3.png",
+    "static/media/logo.png": "/applovin/static/media/logo.46214558ee71c34d9883.png",
     "index.html": "/applovin/index.html",
-    "main.daa5e998.css.map": "/applovin/static/css/main.daa5e998.css.map",
-    "main.f2b690cd.js.map": "/applovin/static/js/main.f2b690cd.js.map"
+    "main.2ca74574.css.map": "/applovin/static/css/main.2ca74574.css.map",
+    "main.69e0015e.js.map": "/applovin/static/js/main.69e0015e.js.map"
   },
   "entrypoints": [
-    "static/css/main.daa5e998.css",
-    "static/js/main.f2b690cd.js"
+    "static/css/main.2ca74574.css",
+    "static/js/main.69e0015e.js"
   ]
 }
