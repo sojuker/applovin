@@ -1,4 +1,12 @@
-.root {}
+.root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.root > * {
+  flex: 0 0 auto;
+}
 
 .nav {
   display: flex;
@@ -84,14 +92,19 @@
 
 .hours {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0 20px;
   justify-content: space-between;
-  overflow: hidden;
+  overflow: auto;
   height: 109px;
+
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 }
 
 .hourCard {
+  scroll-snap-align: start;
+
   flex: 0 0 auto;
   width: 90px;
   height: 109px;
@@ -128,10 +141,17 @@
 }
 
 .days {
+  flex: 1 1 0;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+
   margin-top: 21px;
 }
 
 .dayRow {
+  scroll-snap-align: start;
+
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
